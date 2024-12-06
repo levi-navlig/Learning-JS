@@ -1,4 +1,4 @@
-// Criando um Objeto
+// 📜 Criando um Objeto com propriedades de diferentes tipos
 const pessoa = {
     nome: "Levi",
     sobrenome: "Navlig",
@@ -8,24 +8,23 @@ const pessoa = {
         bairro: "Santa Maria Gorete",
         cidade: "Currais Novos",
         estado: "RN",
-
     }
-}
+};
 
-// Acessando uma propiédade de um objeto
-console.log(pessoa.nome);
+// 🔍 Acessando uma propriedade de um objeto
+console.log("Nome:", pessoa.nome);
 
-// Acessando um elemento de uma propiedade vetor
-console.log(pessoa.passatempos[1]);
+// 🔍 Acessando um elemento dentro de uma propriedade que é um vetor
+console.log("Passatempo favorito:", pessoa.passatempos[1]);
 
-// Acessando uma propiedade de uma propiedade
-console.log(pessoa.endereco.bairro);
+// 🔍 Acessando uma propriedade de uma propriedade (objeto dentro de objeto)
+console.log("Bairro:", pessoa.endereco.bairro);
 
-// Definindo novas propiedade do objeto
-pessoa.email ="levinavlig1227@gmail.com";
-console.log(pessoa);
+// ➕ Adicionando novas propriedades a um objeto
+pessoa.email = "levinavlig1227@gmail.com";
+console.log("Pessoa com email:", pessoa);
 
-// Criando um vetor de objetos
+// ➕ Criando um vetor de objetos
 const tarefas = [
     {
         id: 1,
@@ -40,14 +39,12 @@ const tarefas = [
     {
         id: 3,
         texto: "Lavar os Pratos",
-        completo
+        completo: false
     }
-]
+];
 
-// Selecionando uma propiedade de um elemento do vetor
-console.log(tarefas[1].texto);
+// 🔍 Acessando uma propriedade de um objeto dentro do vetor
+console.log("Tarefa:", tarefas[1].texto); // "Varrer o Chão"
 
-// Formatando um objeto em formato JSON
-console.log(JSON.stringify(tarefas));
-// Muito utilizado para transferencia de dados
-
+// 🔄 Formatando um objeto em formato JSON
+console.log("Tarefas em JSON:", JSON.stringify(tarefas)); // Transforma em JSON
