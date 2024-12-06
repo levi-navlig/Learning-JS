@@ -1,23 +1,24 @@
-// Tipo de dado string
-const nome_levi = "Levi Navlig Trajano de Medeiros";
+// 📝 Tipo de dado string
+const nomeLevi = "Levi Navlig Trajano de Medeiros";
 
-// Tipo de dado boolean
+// 📝 Tipos de dado boolean
 const verdadeiro = true;
 const falso = false;
 
-// Tipo de dado inteiro e float
-const num_casa_levi = 120; 
-const num_casa_ivel = 0.21; 
+// 📝 Tipos de dado inteiro e float
+const numeroInteiro = 120; // Número inteiro
+const numeroDecimal = 0.21; // Número com casa decimal
 
-// Tipo de dado null e undefined
-const dado_nulo = null;
-const dado_indefinido = undefined;
+// 📝 Tipos de dado null e undefined
+const dadoNulo = null; // Ausência de valor
+const dadoIndefinido = undefined; // Valor não atribuído
 
-let x;
-let y = 15;
-x = 1;
-let z = x - y;
+// 📝 Exemplo com variáveis
+let x; // Declaração de variável sem valor inicial
+let y = 15; // Declaração com valor inicial
+x = 1; // Atribuindo valor a x
+let resultado = x - y; // Operação simples entre variáveis
 
-// Demonstrando o dado do nome de levi no console
-console.log(nome_levi);
-console.log(z);
+// 🖥️ Exibindo dados no console
+console.log("Nome do usuário:", nomeLevi);
+console.log("Resultado da operação:", resultado);

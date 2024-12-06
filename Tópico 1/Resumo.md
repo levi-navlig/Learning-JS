@@ -1,27 +1,27 @@
-# **Variáveis, Constantes, Tipos de Dados e amostras no terminal**
+# 📚 **Variáveis, Constantes, Tipos de Dados e Amostras no Terminal**
 
-## Tipos de Dados
+Neste módulo, você aprenderá os conceitos fundamentais de **variáveis**, **constantes**, **tipos de dados** e como usar o terminal para imprimir informações no JavaScript.
 
-> string
-- Dados que usam caracteres, como nomes de pessoas ou cidades
-> int
-- Dados inteiros são números inteiros como 1 - 2 - 3
-> float
-- Dados do tipo Flutuante são dados que obtem números com casas decimais
-> boolean
-- Dados do tipo booleando só podem ser True ou False
-> null - undefined
-- Tipo de dado que não representa valor nenhum, vazio ou indefinido
-- Geralmente null é definido pelo dev e undefined pelo programa por não ter um valor
+---
 
-## Amostra no terminal
+## 🛠️ **Tipos de Dados**
+Os principais tipos de dados em JavaScript são:  
+- **String:** Representa textos ou caracteres. Exemplo: `"Olá, Mundo!"`.
+- **Int:** Números inteiros, como `1`, `42`, ou `-15`.
+- **Float:** Números com casas decimais, como `3.14` ou `-0.99`.
+- **Boolean:** Representa valores lógicos, podendo ser apenas `true` (verdadeiro) ou `false` (falso).
+- **Null/Undefined:**  
+  - **Null:** Representa a ausência de valor, geralmente definido pelo programador.  
+  - **Undefined:** Valor não atribuído, definido automaticamente pelo JavaScript.
 
-- Devemos utilizar console.log(x);
+---
 
-## Indentificadores
+## 📌 **Identificadores**
+- **Constantes:** Criadas com `const`, possuem um valor que **não pode ser alterado**.  
+- **Variáveis:** Criadas com `let`, podem ter seus valores alterados ao longo do código.  
 
-> Constantes
-- A Const é o nosso meio de criar constantes (não podem ser alteradas)
-> Variáveis
-- A Let é o nosso meio de criar variáveis 
+---
 
+## 🖥️ **Amostra no Terminal**
+- Para exibir informações no console, usamos o comando:  
+  console.log(valor);
