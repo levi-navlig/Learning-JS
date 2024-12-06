@@ -1,40 +1,40 @@
-// Exemplo de um vetor
+// 📜 Exemplo de um vetor (Array) com elementos de tipos diferentes
 const vetor_exemplo = [0.15, 'b', 'true', 10];
-console.log(vetor_exemplo);
+console.log("Vetor exemplo:", vetor_exemplo);
 
-const frutas = ['maças', 'laranjas', 'peras', 'uvas']
+// Criando um array de frutas
+const frutas = ['maçãs', 'laranjas', 'peras', 'uvas'];
 
-// Obter um valor
-console.log(frutas[0]);
-console.log(frutas[1]);
+// 🔍 Acessando valores do array
+console.log("Primeiro elemento:", frutas[0]); // 'maçãs'
+console.log("Segundo elemento:", frutas[1]); // 'laranjas'
 
-// Adicionar um elemento em um canto especifico do vetor
+// ➕ Adicionando um elemento em um índice específico do array
 frutas[4] = 'melancia';
-console.log(frutas[4]);
+console.log("Elemento adicionado na posição 4:", frutas[4]);
 
-// Alterar o valor de um elemento
+// 📝 Alterando o valor de um elemento
 frutas[1] = 'limão';
-console.log(frutas);
+console.log("Array após alteração:", frutas);
 
-// Adicionar um elemento no final do vetor
+// ➕ Adicionando um elemento no final do array
 frutas.push("morangos");
-console.log(frutas);
+console.log("Array após push:", frutas);
 
-// Adicionar um elemento no início de um vetor
+// ➕ Adicionando um elemento no início do array
 frutas.unshift("mangas");
-console.log(frutas);
+console.log("Array após unshift:", frutas);
 
-// Remover um elemento do fim de um vetor
+// ➖ Removendo o último elemento do array
 frutas.pop();
-console.log(frutas);
+console.log("Array após pop:", frutas);
 
-// Remover um elemento do início de um vetor
+// ➖ Removendo o primeiro elemento do array
 frutas.shift();
-console.log(frutas);
+console.log("Array após shift:", frutas);
 
-// Descobrir o índice de um elemento
-frutas.indexOf("limão");
-console.log(frutas);
+// 🔎 Descobrindo o índice de um elemento
+console.log("Índice do 'limão':", frutas.indexOf("limão"));
 
-// Determinar se uma constante/variável é um vetor
-Array.isArray(frutas);
+// 🔎 Verificando se uma variável é um array
+console.log("É um array?", Array.isArray(frutas)); // true

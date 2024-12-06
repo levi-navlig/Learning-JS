@@ -1,41 +1,49 @@
-# **Operadores**
+# 📚 **Operadores em JavaScript**
 
-## 4 Operações básicas da matemática do JS
+Neste módulo, exploraremos os **operadores** fundamentais e avançados usados no JavaScript, desde as operações matemáticas básicas até operadores de comparação e lógicos.
 
+---
 
+## 🧮 **4 Operações Básicas da Matemática no JS**
+- **Adição:** `x + y`  
+- **Subtração:** `x - y`  
+- **Multiplicação:** `x * y`  
+- **Divisão:** `x / y`  
 
-> Adição
-- x + y;
-> Subtração
-- x - y;
-> Multiplicação
-- x * y;
-> Divisão
-- x / y;
+---
 
-## Operações mais complexas
+## 🔢 **Operações Mais Complexas**
+- **Módulo:** `x % y`  
+  - Calcula o resto da divisão.  
+  - Muito utilizado para verificar se um número é **par ou ímpar**.
+  
+- **Incremento e Decremento:**
+  - **Incrementar:**  
+    - `z = z + 1;` ou `z += 1;` ou `z++;`  
+    - A primeira forma permite incrementar qualquer valor, enquanto `z++` só incrementa em **uma unidade**.
+  - **Decrementar:**  
+    - `z = z - 1;` ou `z -= 1;` ou `z--;`  
+    - As mesmas regras se aplicam ao decremento.
+  - Também é possível usar essas operações com **multiplicação**, **divisão** ou **módulo**, por exemplo:  
+    - `x *= 2;`, `x /= 2;`, ou `x %= 2;`.
 
-> Módulo
-- x % y;
-- Calcula o resto da divisão
-- Muito utilizado para calcular se o número é par ou ímpar
-> Incrementando e decrementando valores
-- z = z + 1; ou z += 1; ou z++;
-- z = z - 1; ou z -= 1; ou z--;
-- Nas duas primeiras opções podemos incrementar/decrementar qualquer quantia, mas na primeira podemos em somente uma unidade
-- Nessas operações podemos fazer o mesmo com elas utilizando multiplicação (x *= 2;), divisão (x /= 2;) ou módulo (x %= 2;)
+---
 
-## Operadores de Comparação
+## ⚖️ **Operadores de Comparação**
+- **Maior que:** `>`  
+- **Menor que:** `<`  
+- **Maior ou igual a:** `>=`  
+- **Menor ou igual a:** `<=`  
+- **Igual a:** `==`  
+- **Diferente de:** `!=`  
 
-- > Maior que
-- < Menor que
-- >= Maior ou igual que
-- <= Menor ou igual que
-- == Igual
-- != Diferente
+---
 
-## Operadores Lógicos
+## 🔗 **Operadores Lógicos**
+- **E:** `&&` (Ambas as condições devem ser verdadeiras)  
+- **Ou:** `||` (Pelo menos uma condição deve ser verdadeira)  
+- **Não:** `!` (Inverte o valor lógico, de verdadeiro para falso, ou vice-versa)
 
-- && E
-- || Ou
-- ! Não
+---
+
+Confira o arquivo `index.js` para ver exemplos práticos dessas operações! 🚀

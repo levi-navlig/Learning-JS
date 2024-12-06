@@ -1,26 +1,24 @@
-// Criando uma String em uma constante chamada meu_nome
-const meu_nome = "Levi Navlig Trajano de Medeiros"
-console.log(meu_nome)
+// 📜 Criando uma String
+const meu_nome = "Levi Navlig Trajano de Medeiros";
+console.log("String original:", meu_nome);
 
-// Concatenação de Strings
-console.log("Meu nome é", + meu_nome)
+// 🔗 Concatenação de Strings
+console.log("Meu nome é " + meu_nome);
 
-// Criando uma String Dinâmica
-console.log(`Meu Nome é ${meu_nome}`)
+// 📝 Criando uma String Dinâmica com Template Literals
+console.log(`Meu nome é ${meu_nome}`);
 
+// 🛠️ Usando as propriedades e métodos de uma string
 
-// Usando as propiedades e métodos de uma string
+// 📏 Mostrando o comprimento da string
+console.log("Comprimento da string:", meu_nome.length);
 
+// 🔡 Convertendo para maiúsculo e minúsculo
+console.log("Maiúsculas:", meu_nome.toUpperCase());
+console.log("Minúsculas:", meu_nome.toLowerCase());
 
-// Define o tamanho da String
-- console.log(string_name.length)
+// ✂️ Demonstrando substring
+console.log("Substring (primeiros 5 caracteres):", meu_nome.substring(0, 5));
 
-// Define os caracteres para maiúsculo ou minúsculo
-- consol.log(string_name.toUpperCase())
-- consol.log(string_name.toLowerCase())
-
-// Demonstra uma certa parte da string 
-- console.log(string_name.Substring(0, 4))
-
-// Dividindo uma string de acordo com o caractér escolhido
-- console.log(string_name.split("u"))
+// 🔗 Dividindo a string usando o método split
+console.log("Dividido por 'i':", meu_nome.split("i"));

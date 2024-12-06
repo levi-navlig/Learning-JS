@@ -1,35 +1,44 @@
-// Definindo as variáveis
+// 📝 Definindo variáveis
 let x = 100;
 let z = 50;
 
-// Operadores básicos
+// 🧮 Operadores básicos
+console.log("Adição:", x + z);
+console.log("Subtração:", x - z);
+console.log("Divisão:", x / z);
+console.log("Multiplicação:", x * z);
 
-console.log(x + z);
-console.log(x - z);
-console.log(x / z);
-console.log(x * z);
+// 🔢 Operadores "complexos"
+console.log("Módulo (resto da divisão):", x % z);
 
-// Operadores "complexos"
+x++; // Incrementando x em 1
+console.log("Incremento:", x);
 
-console.log(x % z);
-console.log(x ++);
-console.log(z --);
-console.log(x += z);
-console.log(x -= z);
-console.log(x *= z);
-console.log(x /= z);
-console.log(x %= z);
+z--; // Decrementando z em 1
+console.log("Decremento:", z);
 
-// Operadores de comparação
+x += z; // Somando z a x
+console.log("Soma acumulativa:", x);
 
-console.log(x > z);
-console.log(x <= z);
-console.log(x == z);
-console.log(x != z);
+x -= z; // Subtraindo z de x
+console.log("Subtração acumulativa:", x);
 
-// Operadores Lógicos
+x *= z; // Multiplicando x por z
+console.log("Multiplicação acumulativa:", x);
 
+x /= z; // Dividindo x por z
+console.log("Divisão acumulativa:", x);
 
-console.log(true && true);
-console.log(false || true);
-console.log(! true);
+x %= z; // Calculando o módulo acumulativo
+console.log("Módulo acumulativo:", x);
+
+// ⚖️ Operadores de comparação
+console.log("x > z:", x > z);
+console.log("x <= z:", x <= z);
+console.log("x == z:", x == z);
+console.log("x != z:", x != z);
+
+// 🔗 Operadores lógicos
+console.log("true && true:", true && true);
+console.log("false || true:", false || true);
+console.log("!true:", !true);
